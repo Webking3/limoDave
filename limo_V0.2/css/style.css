@@ -1,0 +1,172 @@
+@charset "utf-8";
+html{
+	 background: linear-gradient(blue, black);
+	 color: #B8860B;
+	}
+.container{
+	width: 100%;
+	height: 1000px;
+	background: linear-gradient(blue, black);
+
+}
+header{
+	width: 100%;
+	height: 75px;
+	font-size: 4.0em;
+	text-align: center;
+	padding-top: 20px;
+	font-family:Century Gothic;
+  color: #B8860B;
+
+}
+
+nav{
+	font-family: Century Gothic;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	padding-top: 20px;
+	font-family: Century Gothic;
+	color: #B8860B;
+	font-size: 2em;
+}
+a:link {
+	color: #C0C0C0;
+    text-decoration: none;
+}
+
+a:visited {
+	color: #C0C0C0;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #C0C0C0;
+    text-decoration: none;
+}
+
+a:active {
+	color: #B8860B;
+    text-decoration: none;
+}
+a.current:link, a.current:visited {
+  color: #B8860B;
+  }
+
+section{
+
+	font-family: Century Gothic;
+	font-size: 1em;
+	text-align: center;
+	width: 57%;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-left: 2px;
+	padding-bottom: 5px;
+	float: left;
+	border: thin solid #DCDCDC;
+	height:900px;
+}
+section.Lft{
+
+	font-size: 1em;
+	text-align: center;
+	width: 20%;
+	padding: 5px;
+	float: left;
+
+}
+.LftBt{
+	font-family: Century Gothic;
+	font-size: 1em;
+	width: 100%;
+	padding: 5px;
+	float: left;
+}
+section.Rgt{
+
+	font-family:Century Gothic;
+	font-size:1em;
+	text-align:center;
+	width:20%;
+	padding:5px;
+	float:left;
+}
+.RgtBt{
+	font-family:Century Gothic;
+	font-size:1em;
+	width:100%;
+	padding:5px;
+	float:left;
+}
+h1 {
+	font-family: Century Gothic;
+	font-size: 1.6em;
+	text-align: center;
+	color: #B8860B;
+	}
+h2 {
+	font-family: Century Gothic;
+	font-size: 1.2em;
+	text-align: center;
+	color: #B8860B;
+	}
+h3 {
+	font-family: Century Gothic;
+	font-size: 1.0em;
+	text-align: center;
+	color: #B8860B;
+	}
+
+footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: #B8860B;
+    text-align:left;
+	font-size: 0.8em;
+}
+
+.myTable{
+	margin:auto;
+	 color: #B8860B;
+		}
+.formStyle {
+	width: 50%;
+	color: #000;
+
+}
+#main{
+	margin: auto;
+	clear: both;
+	width:75%;
+
+}
+.mySect{
+	clear: both;
+	}
+.mySectRgt{
+
+	font-family: Century Gothic;
+	font-size: 1em;
+	text-align: center;
+	width: 33%;
+	height:350px;
+	padding: 5px;
+	float: left;
+	margin-left: 10%;
+	}
+	.spanText{
+		color:#B8860B;
+		font-size:1.1em;
+		}
+#imgHead{
+	width:1280px;
+	max-height:380px;
+	text-align: center;
+	margin: auto;
+}
+#imgHead.img{
+	width:100%;}
